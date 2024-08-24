@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.M-container4 {
+    height: fit-content;
+    width: 99vw;
+    /* border: 5px solid yellow; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.service-banner {
+    background-image: url(banner1.jpg);
+    height: 53vh;
+    width: 99vw;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.service-banner :nth-child(1) {
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    color: #253255;
+    font-weight: 100;
+    font-size: 35px;
+    /* border: 2px solid green; */
+}
+.service-banner button
+{
+    position: relative;
+    top: 200px;
+    left: 60px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #0471b2;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+.service-banner button:hover
+{
+    background-color: white;
+    border: 2px solid  #0471b2;
+    color: #0471b2;
+}
+
+.garage-banner {
+    background-image: url(banner2.jpg);
+    height: 46vh;
+    width: 99vw;
+    background-size: 99vw;
+    border-bottom: 5px solid blue;
+    border-width: 5px;
+
+}
+.last-honda-icon
+{
+    /* border: 2px solid red; */
+    display: flex;
+    width: fit-content;
+    margin-top: 10px;
+    justify-content: center;
+    cursor: pointer;
+}

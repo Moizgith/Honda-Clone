@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover Background Color Transition</title>
+<style>
+    .element {
+        width: 200px;
+        height: 200px;
+        background-image: linear-gradient(to bottom, #ffcccc, #ff9999); /* Start gradient */
+        transition: background-image 0.5s; /* Transition effect on background-image */
+    }
+
+    .element:hover {
+        background-image: linear-gradient(to bottom, #cc99ff, #9966ff); /* End gradient */
+    }
+</style>
+</head>
+<body>
+
+<div class="element"></div>
+
+</body>
+</html>

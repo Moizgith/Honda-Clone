@@ -1,0 +1,398 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.M-container2
+{
+    width: 99vw;
+    height: fit-content;
+    background-color: whitesmoke;
+
+}
+.feature-performance
+{
+    margin-left: 60px;
+    color: #06324b;
+}
+/* ------------------------------- features performance-------------------------------- */
+.performance
+{
+    width: 99vw;
+    height: 95vh;
+    /* background-color: green; */
+    /* border: 6px solid black; */
+    position: relative;
+}
+.performance-nav-bar
+{
+    height: 12vh;
+    width: 99vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: start;
+
+}
+.performance-nav-bar ul
+{
+    background-color: whitesmoke;
+    width: 60vw;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    list-style: none;
+    /* color: #3890bd; */
+    color: black;
+    padding-left: 150px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.performance-nav-bar ul li:hover
+{
+    color: #3890bd;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.performance-img
+{
+    /* width: 100px; */
+    margin-left: 60px;
+}
+.performance-descrp
+{
+    height: 440px;
+    width: 350px;
+    color: white;
+    background-color: #00324d;
+    position: absolute;
+    right: 170px;
+    top: 120px;
+    z-index: 9999;
+    padding: 30px;
+}
+.performance-descrp :nth-child(4)
+{
+    bottom: 20px;
+    right: 20px;
+    color: #0076b3;
+    position: absolute;
+    font-weight: bold;
+    cursor: pointer;
+}
+.performance-descrp :nth-child(4):hover
+{
+    color: #0073b2;
+    text-decoration: underline;
+}
+/* ------------------------------features perfomence end--------------------- */
+/* ---------------------------------ext-int-starts------------------------------ */
+.feature-ext-int
+{
+    margin-left: 870px;
+    /* border: 2px solid red ; */
+    color: #06324b;
+}
+.ext-int
+{
+    width: 99vw;
+    height: 95vh;
+    /* background-color: green; */
+    /* border: 6px solid black; */
+    position: relative;
+}
+.ext-int-nav-bar
+{
+    height: 12vh;
+    width: 99vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+.ext-int-nav-bar ul
+{
+    background-color: whitesmoke;
+    width: 60vw;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    list-style: none;
+    /* color: #3890bd; */
+    color: black;
+    padding-left: 150px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.ext-int-nav-bar ul li:hover
+{
+    color: #3890bd;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ext-int-img
+{
+    /* width: 100px; */
+    margin-left: 350px;
+}
+.ext-int-descrp
+{
+    height: 440px;
+    width: 400px;
+    color: white;
+    background-color: #00324d;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+    z-index: 9999;
+    padding: 30px;
+}
+.ext-int-descrp :nth-child(4)
+{
+    bottom: 20px;
+    right: 20px;
+    color: #0076b3;
+    position: absolute;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ext-int-descrp :nth-child(4):hover
+{
+    color: #0073b2;
+    text-decoration: underline;
+}
+/* --------------ext-int-ends------------------------------------ */
+.feature-technology
+{
+    margin-left: 60px;
+    color: #06324b;
+}
+.technology
+{
+    width: 99vw;
+    height: 95vh;
+    /* background-color: green; */
+    /* border: 6px solid black; */
+    position: relative;
+}
+.technology-nav-bar
+{
+    height: 12vh;
+    width: 99vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: start;
+
+}
+.technology-nav-bar ul
+{
+    background-color: whitesmoke;
+    width: 60vw;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    list-style: none;
+    /* color: #3890bd; */
+    color: black;
+    padding-left: 150px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.technology-nav-bar ul li:hover
+{
+    color: #3890bd;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.technology-img
+{
+    /* width: 100px; */
+    margin-left: 60px;
+}
+.technology-descrp
+{
+    height: 440px;
+    width: 350px;
+    color: white;
+    background-color: #00324d;
+    position: absolute;
+    right: 170px;
+    top: 120px;
+    z-index: 9999;
+    padding: 30px;
+}
+.technology-descrp :nth-child(4)
+{
+    bottom: 20px;
+    right: 20px;
+    color: #0076b3;
+    position: absolute;
+    font-weight: bold;
+    cursor: pointer;
+}
+.technology-descrp :nth-child(4):hover
+{
+    color: #0073b2;
+    text-decoration: underline;
+}
+/* ---------------------TECHNOLOGY ENDS HERE------------------- */
+.specification
+{
+    width: 99vw;
+    height: 500px;
+    background-image: url('img4.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 6px solid green; */
+}
+.specification .box
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 350px;
+    /* border: 2px solid white; */
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+
+}
+
+.btn3 {
+    border-radius: 20px;
+    background-color: #0076b3;
+    margin-top: 10px;
+    height: 38px;
+    color: white;
+    font-weight: 700;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: white;
+    color: #0073b2;
+}
+
+/* ---------------------------------------------------------------------------- */
+.sh-Tools{
+    width: 99vw;
+    height: 15vh;
+    margin-top: 20px;
+    color: #203f4e;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 100;
+
+}
+.tools-menu
+{
+    display: flex;
+    justify-content: center;
+}
+.tools-elements
+{
+    width: 96.5vw;
+    height: 300px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box99
+{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    /* border: 2px solid yellow; */
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: #002e48;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.award{
+    width: 99vw;
+    height: 15vh;
+    margin-top: 20px;
+    color: #203f4e;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 100;
+
+}
+.awardmenu
+{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.award-sec
+{
+    width: 66vw;
+    height: 65vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.box98
+{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+}
+.box98 h1
+{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: #01314c;
+}
+.box98 p
+{
+    color: #5b98c9;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    height: 200px;
+    align-items: start;
+    cursor: pointer;
+}
+.btn4
+{
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.btn4:hover
+{
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+}
